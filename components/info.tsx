@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { Product } from "@/types";
 import Currency from "./ui/currency";
@@ -6,7 +6,7 @@ import Button from "./ui/button";
 import { ShoppingCart } from "lucide-react";
 
 interface InfoProps {
-  data: Product
+  data: Product;
 }
 
 const Info: React.FC<InfoProps> = ({
@@ -14,7 +14,7 @@ const Info: React.FC<InfoProps> = ({
 }) => {
 
   return (
-    <div className="">
+    <div>
       <h1 className="text-3xl font-bold text-gray-900">{data.name}</h1>
       <div className="mt-3 flex items-end justify-between">
         <p className="text-2xl text-gray-900">
